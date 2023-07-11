@@ -8,8 +8,8 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 img{
-  height: 100%;
-  width: 100%;
+  max-width: 100%; 
+  vertical-align: middle;
 }
 ul{
   list-style: none;
@@ -65,7 +65,7 @@ nav{
   justify-content: space-between;
 }
 .banner-img{
-  width: 600px;
+  width: 635px;
   height: 500px;
 }
 .banner{
@@ -74,7 +74,13 @@ nav{
 }
 .banner-title{
   text-transform: capitalize;
-  font-size: 45px;
+  width: 700px;
+  color: #272727;
+  font-family: Lato;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .contant{
   padding: 20px 0;
@@ -98,8 +104,11 @@ nav{
   color: #474744;
 }
 /* flower area css */
+main section{
+  margin-top: 130px;
+}
 .flower-area{
-  padding: 50px 0;
+
 }
 .title{
   text-align: center;
@@ -119,21 +128,66 @@ padding: 20px 0;
 }
 .flower{
   display: flex;
-  gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flower-img img{
   height: 500px;
 }
-.flower-img{
+
+.flower-1{
   border-radius: 300px 300px 0px 0px;
-  background: rgba(71, 125, 17, 0.15);
-  flex-basis: 33%;
+  background: rgba(167, 33, 98, 0.15);
   padding: 50px 50px 0 50px;
+  align-items: center;
+  width: 380px;
+  flex-shrink: 0;
+}
+.flower-2{
+width: 380px;
+padding: 50px 50px 0 50px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+align-items: center;
+
+}
+.flower-3{
+width: 380px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+align-items: center;
+padding: 50px 50px 0 50px;
 }
 .flower-bottom{
-  color: #272727;
-  text-align: center;
-  font-family: open sans;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 35px;
-  text-decoration-line: underline;
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+padding-top: 20px;
 }
+/* flower bottom css */
+/* .flower-bottom-area{
+  display: flex;
+  height: 320px;
+  border-radius: 8px;
+  background-color: rgba(39, 39, 39, 0.05);
+  margin: 50px;
+}
+.flower-box{
+  flex-basis: 33%;
+}
+.contant-des{
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+} */

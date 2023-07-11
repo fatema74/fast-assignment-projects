@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,700;1,400;1,500&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +8,7 @@
 }
 body{
   font-family: 'Fira Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;;
 }
 img{
   max-width: 100%; 
@@ -49,7 +52,6 @@ nav{
 .menu li a{
   font-size: 20px;
   font-weight: 400px;
-  font-family: open, sans;
   margin-left: 30px;
   padding: 10px 20px;
   border-radius: 5px;
@@ -76,7 +78,6 @@ nav{
   text-transform: capitalize;
   width: 700px;
   color: #272727;
-  font-family: Lato;
   font-size: 70px;
   font-style: normal;
   font-weight: 700;
@@ -114,13 +115,11 @@ main section{
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  font-family: open sans;
-  margin-top: 30px;
+  margin-top: 48px;
 }
 .section-des{
 color: rgba(39, 39, 39, 0.60);
 text-align: center;
-font-family: open sans;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
@@ -133,7 +132,7 @@ padding: 20px 0;
   flex-wrap: wrap;
 }
 .flower-img img{
-  height: 500px;
+  height: 400px;
 }
 
 .flower-1{
@@ -161,10 +160,9 @@ background: rgba(71, 125, 17, 0.15);
 align-items: center;
 padding: 50px 50px 0 50px;
 }
-.flower-bottom{
+.flower-title{
 color: #272727;
 text-align: center;
-font-family: Lato;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -172,22 +170,76 @@ line-height: 35px;
 text-decoration-line: underline;
 padding-top: 20px;
 }
-/* flower bottom css */
-/* .flower-bottom-area{
+/* support area css start hear */
+.service-area{
   display: flex;
   height: 320px;
   border-radius: 8px;
-  background-color: rgba(39, 39, 39, 0.05);
-  margin: 50px;
+  background: rgba(39, 39, 39, 0.05);
 }
-.flower-box{
-  flex-basis: 33%;
+.service-area img{
+  height: 88px;
+  width: 88px;
 }
+.img-1, .img-2{
+  margin-left: 130px;
+}
+.img-3{
+  margin-left: 50px;
+}
+.service-box{
+  padding: 100px 50px 0 50px;
+  align-items: center;
+}
+
 .contant-des{
-  color: rgba(39, 39, 39, 0.80);
+color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+}
+/* sale area css */
+.sale-area{
+  background-color: rgba(229, 84, 115, 0.05);
+}
+.sale{
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-around;
+  padding: 50px;
+}
+.sale-title{
+color: #272727;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.sale-contant{
+  padding-top: 120px;
   text-align: center;
-  font-family: Lato;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 35px;
-} */
+}
+.sale-des{
+width: 594px;
+flex-direction: column;
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding: 20px 0;
+}
+.buttom{
+display: inline-flex;
+padding: 10px 20px;
+border-radius: 8px;
+background: #E55473;
+border: 0;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+}
+/* Instagram area css */

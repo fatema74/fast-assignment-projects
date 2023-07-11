@@ -4,24 +4,39 @@
   box-sizing: border-box;
 }
 body{
-   font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  transition: .3s;
+  text-transform: capitalize;
 }
 .container{
   width: 1200px;
   margin: 0 auto;
 }
 /* header area css */
-.header-area{
- background: rgba(229, 84, 115, 0.10);
- padding: 50px 0;
-}
-.header{
+nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+.header-area{
+  background: rgba(229, 84, 115, 0.10);
+  padding: 50px 0;
+  height: 600px;
+}
+
 .header-title{
-  font-size: 30px;
+  font-size: 40px;
   color: #181818;
   font-weight: 700;
 }
@@ -30,12 +45,9 @@ body{
 }
 .menu{
   display: flex;
-  list-style: none;
 }
 .menu li a{
-  text-decoration: none;
   font-size: 20px;
-  text-transform: capitalize;
   font-weight: 400px;
   font-family: open, sans;
   margin-left: 30px;
@@ -46,15 +58,43 @@ body{
   background-color: tomato;
   color: #474744;
 }
+/* banner area css */
 .banner-area{
- t;
- `
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-img{
+  width: 600px;
+  height: 500px;
 }
 .banner{
-   background-image: url(../img/pngwing\ 10.png);
-  background-repeat: no-repeat;
-  background-position: bottom righ
+  width: 600px;
+  padding: 0 100px 0 0;
 }
 .banner-title{
-
+  text-transform: capitalize;
+  font-size: 45px;
 }
+.banner-contant{
+  padding: 20px 0;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn{
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #E55473;
+  border: 0;
+  text-transform: capitalize;
+  color: #fff;
+}
+.btn:hover{
+  background: #fd6e0a;
+  color: #474744;
+}
+

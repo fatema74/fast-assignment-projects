@@ -243,3 +243,140 @@ font-size: 20px;
 font-weight: 700;
 }
 /* Instagram area css */
+.instagram-area{
+
+}
+.instagram-title h3{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.instagram-title p{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 24px 0 48px 0;
+}
+.instagram-img{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.instagram{
+
+}
+/* subscribe area css */
+.subscribe-area{
+  background-image: url(../img/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 121px 0;
+}
+.subscribe-title{
+  text-align: center;
+}
+.subscribe-title h3{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.subscribe-title p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 10px 0;
+}
+.form{
+  text-align: center;
+  padding-top: 20px;
+}
+.form input[type="email"]{
+width: 500px;
+border-radius: 8px;
+background: #FFF;
+padding: 15px;
+  border: 0;
+}
+.form input[type="submit"]{
+border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+  border: 0;
+  padding: 10px 20px;
+}
+.form input[type="submit"]:hover{
+  background-color: #fd6e0a;
+  color: #272727;
+}
+/* contact-area area css */
+.contact-area{
+  background-color: #fff8f3;
+}
+.contact{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 50px;
+}
+.contact-column{
+  width: 50%;
+}
+.contact-column h3{
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #272727;
+  padding-bottom: 30px;
+}
+.contact-column p{
+  font-size: 18px;
+  color: #474744;
+  line-height: 30px;
+}
+.contant-form{}
+
+.contact input[type="text"], input[type="password"], textarea{
+  display: block;
+  margin-bottom: 20px;
+  padding: 18px 35px;
+  color: #757575;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+}
+/* footer area css */
+.footer-area{
+  background: #111010;
+}
+.footer-contant{
+  text-align: center;
+  padding: 50px 0;
+}
+.footer-title{
+color: #E55473;
+font-size: 48px;
+font-weight: 800;
+}
+.spans{
+  color: #fff8f3;
+}
+.footer-tes{
+color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 20px 0;
+}
+.footer-das{
+color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+}

@@ -188,16 +188,15 @@ padding-top: 20px;
   margin-left: 50px;
 }
 .service-box{
-  padding: 100px 50px 0 50px;
+  padding: 70px 50px 0 50px;
   align-items: center;
 }
 
 .contant-des{
 color: rgba(39, 39, 39, 0.80);
 text-align: center;
-font-family: Lato;
 font-size: 24px;
-font-style: normal;
+padding: 20px 0;
 font-weight: 600;
 line-height: 35px;
 }
